@@ -1,13 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * function_name - Short description, single line
+ * @parameterx: Description of parameter x
+(* a blank line
+ * Description: Longer description of the function)?
+(* section header: Section description)*
+ * Return: Description of the returned value
+ */
 int main(void)
-	/*
-	 * the function takes a number n and prints positive if it is > 0
-	 */
 {
 	int n;
 
