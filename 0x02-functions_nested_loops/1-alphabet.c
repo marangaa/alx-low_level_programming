@@ -10,10 +10,9 @@ void main(void)
 {
 	char c;
 
-	for (c = 97; c <= 122; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
 	_putchar('\n');
-
 }
