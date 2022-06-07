@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabet in lower case
  *
- *
+ * Return: returns null
  */
 
 void main(void)
