@@ -1,24 +1,22 @@
 #include "main.h"
-
 /**
- * puts2 - prints every other character
- * @str: input string
+ *puts2 - prints even characters of a string
  *
- * Description: prints every other character
- * Return: Always (0)
+ *@str:input
+ *
+ *Return:void
+ *
  */
-
 void puts2(char *str)
 {
 	int i;
 
-	while (str[i] != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
 		{
 			_putchar(str[i]);
 		}
-		i++;
 	}
 	_putchar('\n');
 }
