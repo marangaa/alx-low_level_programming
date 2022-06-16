@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - lowercase to uppercase
+ * @n: pointer
  * Return: n
  */
 
